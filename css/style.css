@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    color: #363024;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    font-family: 'Open Sans', sans-serif;
+}
+.common_btn{
+    background: #D6A033;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 200%;
+    color: #fff;
+    text-transform: capitalize;
+}
+.pera{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 32px;
+    color: #524D43;
+
+}
+/* =============== navber start hare ==================== */
+.navber{
+    padding-top: 30px;
+    /* background-color: gray; */
+    z-index: 555;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_manu ul {
+    display: flex;
+    column-gap: 42px;
+}
+.nav_manu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all linear 0.3s;
+}
+.nav_manu ul li a:hover {
+    color: #D6A033;
+}
+/* =============== navber end hare ====================== */
+
+/* =============== banner start hare ==================== */
+#banner{
+        background: linear-gradient(rgba(3, 13, 17, 0.7),rgba(3, 13, 17, 0.7)),url(../images/banner_img.jpg);
+        height: 800px;
+        padding: 305px 0 550px 0;
+        position: relative;
+}
+.banner_heading h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: #F7D38A;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 16px;
+}
+.banner_heading h2{
+    font-size: 64px;
+    font-weight: 800;
+    color: #F5F2EB;
+    margin-bottom: 20px;
+}
+.banner_heading p{
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: #BEBBB4;
+    width: 520px;
+}
+.banner_btn{
+    margin-top: 55px;
+}
+.banner_btn a{
+    font-weight: 800;
+}
+/* .banner_short_img{
+    width: 380px;
+    height: 320px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 425px;
+    right: 280px;
+    overflow: hidden;
+}
+.banner_short_img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} */
+/* =============== banner end hare ====================== */
+
+/* =============== hare_care start hare ==================== */
+#care{
+    margin: 100PX 0;
+}
+.care_wrapper{
+    display: flex;
+    column-gap: 62px;
+}
+.img_box_wrapper{
+    display: flex;
+    column-gap: 24px;
+}
+.box{
+    width: 175px;
+    height: 160px;
+    background-color: rebeccapurple;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.big_img{
+    width: 458px;
+    height: 528px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+}
+.big_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hair_service h2{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #363024;
+    width: 431px;
+    text-transform: capitalize;
+}
+.hair_service p{
+    width: 390px;
+    padding: 24px 0;
+}
+/* =============== hare_care end hare ====================== */
+
+/* =============== service start hare ==================== */
+#service{
+    padding: 100px 0;
+    background-color: rgba(196, 196, 196, 0.185);
+}
+.service_heading{
+    text-align: center;
+}
+.sub_heading{
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.service_heading p{
+    width: 570px;
+    margin: auto;
+    padding: 20px 0 32px 0;
+}
+.service_wrapper{
+    display: flex;
+    column-gap: 146px;
+    row-gap: 12px;
+    flex-wrap: wrap;
+}
+.service_item{
+    position: relative;
+    width: 505px;
+    height: 182px;
+}
+.service_item h5{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #363024;
+    text-transform: capitalize;
+}
+.service_item p{
+    width: 270px;
+    padding-top: 16px;
+}
+.dollar h6{
+    /* position: absolute; */
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #D6A033;
+    right: 0;
+}
+.service_item_wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.dollar i{
+    align-items: center;
+    padding-right: 2px;
+    font-size: 24px;
+}
+/* =============== service end hare ====================== */
+
+/* =============== Choose start hare ==================== */
+#Choose{
+    padding: 100px 0;
+}
+.choose_wrapper{
+    display: flex;
+    column-gap: 162px;
+    justify-content: space-between;
+    position: relative;
+}
+.test_wrapper{
+    width: 480px;
+    height: 120px;
+    display: flex;
+    column-gap: 24px;
+    margin-top: 36px;
+}
+.round{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgba(214, 160, 51, 0.250);
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.round img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.text h5{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #363024;
+}
+.text p{
+    width: 300px;
+}
+.choose_img_shape{
+    width: 432px;
+    height: 407px;
+    border: 3px solid #D6A033;
+}
+.choose_big_img{
+    width: 432px;
+    height: 467px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    overflow: hidden;
+}
+.choose_big_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.choose_short_img{
+    width: 190px;
+    height: 194px;
+    border: 6px solid #F6F6F6;
+    position: absolute;
+    top: 238px;
+    right: 375px;
+    overflow: hidden;
+}
+.choose_short_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* =============== Choose end hare ====================== */
+
+/* =============== work start hare ==================== */
+#work{
+    background-color: #181D21;
+    padding: 120px 0px 328px 0px;
+    position: relative;
+}
+.work_manu{
+    display: flex;
+    column-gap: 80px;
+}
+.work_manu h3{
+    color: #FBFBFA;
+}
+.work_manu ul{
+    display: flex;
+    column-gap: 40px;
+}
+.work_manu ul li a{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #FBFBFA;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.work_manu ul li a:hover{
+    color: #D6A033;
+}
+.work_img_wrapper{
+    display: flex;
+    column-gap: 30px;
+    position: absolute;
+    top: 240px;
+}
+.work_img{
+    width: 370px;
+    height: 348px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+.work_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .work_img{
+    width: 370px;
+    height: 348px;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+.work_img{
+    width: 370px;
+    height: 348px;
+    overflow: hidden;
+    background-color: blueviolet;
+} */
+/* =============== work end hare ====================== */
+
+/* =============== product start hare ==================== */
+#product{
+    margin-top: 190px;
+    background-color: #FCFBF9;
+}
+.product_heading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.arro_box{
+    display: flex;
+    column-gap: 20px;
+}
+.arro{
+    height: 55px;
+    width: 55px;
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+    transition: all linear 0.3s;
+}
+.arro i{
+    text-align: center;
+    margin: 0 auto;
+}
+.arro:hover{
+    background-color: #D6A033;
+    color: #fff;
+}
+
+
+
+.product_item_wrapper{
+    padding: 65px 0 100px 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.product_item{
+    width: 270px;
+    background-color: #FDF4E1;
+}
+
+.product_item:hover{
+    background-color: #D6A033;
+    border: 2px solid #D6A033;
+    color: #FFF;
+}
+
+.product_item_img{
+    height: 330px;
+    width: 100%;
+    overflow: hidden;
+}
+.product_item_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product_item_contant{
+    padding: 20px 16px;
+}
+.product_item_contant h5{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.product_item_contant h5:hover{
+    color: #fff ;
+}
+
+.product_dollar i{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #D6A033;
+}
+.product_dollar i:hover{
+    color: #FFF;
+}
+.product_dollar .dollar{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #D6A033;
+}
+
+.product_dollar .dollar:hover{
+    color: #fff;
+}
+
+.product_review{
+    margin-left: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+/* =============== product end hare ====================== */
+
+/* =============== navber start hare ==================== */
+/* =============== navber end hare ====================== */
+
+/* =============== navber start hare ==================== */
+/* =============== navber end hare ====================== */
+
+/* =============== navber start hare ==================== */
+/* =============== navber end hare ====================== */
+
+/* =============== navber start hare ==================== */
+/* =============== navber end hare ====================== */
